@@ -13,6 +13,7 @@ from sys import exit
 from time import sleep
 from os import path
 from socket import socket, AF_INET, SOCK_STREAM, gethostbyname, gaierror
+from os import *
 
 version = python_version().startswith('2', 0, len(python_version()))
 if version:
